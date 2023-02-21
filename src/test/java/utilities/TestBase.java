@@ -21,13 +21,13 @@ public class TestBase {
     }
     @After
     public void tearDown(){
-        driver.close();
+        driver.quit();
     }
     public void bekle(int saniye){
         try {
             Thread.sleep(saniye*1000);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            System.out.println("zamanlama hatasi");
         }
     }
 }
