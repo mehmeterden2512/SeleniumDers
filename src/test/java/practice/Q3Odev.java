@@ -3,6 +3,7 @@ package practice;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
@@ -49,13 +50,19 @@ public class Q3Odev {
         //choose your continent -> Antartica
         WebElement kitalarKutusu=driver.findElement(By.id("continents"));
         kitalarKutusu.click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.findElement(By.xpath("(//select/option)[text()='Antartica']")).click();
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        WebElement ddm0= driver.findElement(By.xpath("//select[@id='continents']"));
+        Select select0=new Select(ddm0);
+        select0.selectByVisibleText("Antartica");
+       // driver.findElement(By.xpath("(//select/option)[text()='Antartica']")).click();
         //choose your command  -> Browser Commands
-        driver.findElement(By.xpath("//option[text()='Browser Commands']")).click();
+        WebElement ddm= driver.findElement(By.xpath("//select[@id='selenium_commands']"));
+        Select select=new Select(ddm);
+        //driver.findElement(By.xpath("//option[text()='Browser Commands']")).click();
         // click submit button
+        select.selectByVisibleText("//option[text()='Browser Commands']");
         Thread.sleep(3000);
-        driver.navigate().refresh();
+       // driver.navigate().refresh();
      WebElement buttonElementi=   driver.findElement(By.xpath("//button[@class='btn btn-info']"));
             buttonElementi.submit();
         driver.close();
