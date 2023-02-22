@@ -1,0 +1,37 @@
+S1: Automation Testing nedir?
+S2: Automation Testin faydaları nelerdir?
+S3: Kütüphane dosyalarını projemize import etmezsek ne olur?
+S4: Selenium WebDriver'ın zorlukları nelerdir?
+S4: Selenium WebDriver'ın zorlukları nelerdir?
+S5: Hangi tür testleri Automation yaptınız?
+S6: Sanity testing nedir?
+S7: Günde kaç test senaryosunu Automation yapıyorsunuz?
+S7: Günde kaç test senaryosunu Automation yapıyorsunuz?
+S10: Hiç framework oluşturdunuz mu?
+S11: Selenium Automation aracını neden tercih ediyorsunuz?
+S12: Selenium nedir?
+S13: Birleşenlerinin adlarını açıklayınız?
+S14: Selenium IDE nedir?
+S15: Selenese nedir?
+S16: Selenium WebDriver nedir?
+Not: eksik olan kisimlar selenium grid ile ilgilidir.
+S22: Selenium WebDriver hangi program dillerini destekler?
+S23: Selenium WebDriver hangi kullanıcı sistemlerde calisir?
+S24: Selenium da minimum kaç tane parametreye ihtiyacınız var?
+S25: Selenium WebDriver tarafından desteklenen Açık Kaynak Çerçeveler (Open￾source Framework) nelerdir?
+S26: Selenium da Locator (bulucu) lar nelerdir?
+S27: Xpath nedir?
+S28: ID, Name, XPath veya CSS Selector locatorlarını ne zaman kullanırsınız?
+S29: Single slash "/" ile Double Slash "//" arasindaki fark nedir?
+S30: Absolute Path ve Relative Path arasindaki fark nedir?
+S31: Assert ile Verify arasındaki farkı açıklayınız?
+S32: Soft assert ve hard Assert nelerdir?
+S33: setSpeed() ile sleep() methodlari arasindaki fark nedir?
+S34: ChromeDriver bir class mı yoksa interface mi?
+S35: Selenium WebDriver kullanarak bir tarayıcı nasıl başlatılır?
+S36: Selenium da Webelement nedir?
+S37: Selenium WebDriver da karşılaştığınız Exception lar nelerdir?
+S38: Selenium WebDriver da hangi çeşit wait ler mevcuttur?
+S39: Implicit Wait nedir?
+S40: Selenium WebDriver kullanarak metin kutusuna metin nasıl girilir?
+
