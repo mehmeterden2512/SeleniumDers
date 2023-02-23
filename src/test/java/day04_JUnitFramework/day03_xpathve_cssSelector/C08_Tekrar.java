@@ -1,4 +1,4 @@
-package day03_xpathve_cssSelector;
+package day04_JUnitFramework.day03_xpathve_cssSelector;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
