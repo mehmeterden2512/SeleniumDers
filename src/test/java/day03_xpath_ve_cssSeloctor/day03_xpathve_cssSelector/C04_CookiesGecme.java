@@ -1,4 +1,4 @@
-package day04_JUnitFramework.day03_xpathve_cssSelector;
+package day03_xpath_ve_cssSeloctor.day03_xpathve_cssSelector;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
