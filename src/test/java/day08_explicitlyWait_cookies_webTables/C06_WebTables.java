@@ -20,7 +20,7 @@ public class C06_WebTables extends TestBase {
             System.out.println(baslikNo++ + "-->"+eachelement.getText());
         }
         // 3. 3.sutunun basligini yazdirin
-        System.out.println("3.Sutun Başlıgı: "+headersList.get(3).getText());
+        System.out.println("3.Sutun Başlıgı: "+headersList.get(2).getText());
         // 4. Tablodaki tum datalari yazdirin
         List<WebElement> tumDatalarListi=driver.findElements(By.xpath("//div/div[@class='rt-td']"));
         int dataNo=1;
@@ -57,10 +57,9 @@ public class C06_WebTables extends TestBase {
             }
         }
 
-        for (WebElement each:tumDatalarListi
-             ) {
-            if (each.getText().equals("Kierra")){
-                System.out.println(driver.findElement(By.xpath("//div[@class='rt-td']["+index+"]")).getText());
+        for (int i = 0; i < tumDatalarListi.size()  ; i++) {
+            if (tumDatalarListi.get(i).getText().equals("Kierra")){
+                System.out.println("Istenen kisinin maasi : " + tumDatalarListi.get(i+4).getText());
             }
         }
         //10. Page sayfasinda bir method olusturun,
